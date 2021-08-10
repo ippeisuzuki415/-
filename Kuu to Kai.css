@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(160, 159, 168);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 90%;
+  height: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+header .heading {
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: inline-block;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main-visual {
+  width: 100%;
+  height: 620px;
+  background-image: url(img/IMG_6015.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  width: 30%;
+  height: 620px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 160px;
+}
+
+.main-visual-text {
+}
+
+.main-visual-name {
+  margin-top: 30px;
+}
+
+.main {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.blog {
+  padding-right: 50px;
+  display: flex;
+  text-align: center;
+  width: 540px;
+  margin-right: 30px;
+}
+
+.blog-text {
+  padding-left: 20px;
+}
+
+.blog-heading {
+  width: 100px;
+  padding-top: 30px;
+  border-bottom: 8px solid #f7f7f7;
+  line-height: 0.6;
+}
+
+.blog-item {
+  margin-top: 50px;
+  margin-left: 130px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: flex-start;
+}
+.blog-image {
+  height: 180px;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 25%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.sidebar {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.common-heading {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.sideber-contents {
+  padding: 50px 0;
+}
+
+.popular-text:last-child .categories-text:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.instagram .sidebar-contents {
+  display: flex;
+}
+
+.instagram-box {
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.instagram-box:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.instagram-box:nth-child(1) {
+  background-image: url(img/IMG_4281.JPG);
+}
+
+.instagram-box:nth-child(2) {
+  background-image: url(img/japan.jpg);
+}
+
+.instagram-box:nth-child(3) {
+  background-image: url(img/snow.jpg);
+}
+
+.instagram-box:nth-child(4) {
+  background-image: url(img/japan2.jpg);
+}
+
+.instagram-box:nth-child(5) {
+  background-image: url(img/lake.jpg);
+}
+
+.instagram-box:nth-child(6) {
+  background-image: url(img/road.jpg);
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #100825;
+}
+
+.footer-text {
+  color: #fff;
+}
